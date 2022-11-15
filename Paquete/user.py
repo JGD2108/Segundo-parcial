@@ -1,4 +1,4 @@
-import Jugador
+from Paquete.Jugador import Jugador
 class User(Jugador):
     @property
     def points(self):

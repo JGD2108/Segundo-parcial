@@ -1,4 +1,4 @@
-import Jugador
+from Paquete.Jugador import Jugador
 import random
 class Cpu(Jugador):
     @property
