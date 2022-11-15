@@ -1,0 +1,26 @@
+@startuml
+class "abc.ABC" as abc{}
+abstract class Jugador{
+defense:int
+attack:int
+points:int
+name:int
+----
++{abstract}Ataques y defensas()
+}
+
+class User{
+----
++Ataques y defensas
+}
+
+class Cpu{
+----
++Ataques y defensas
+}
+
+abc<|--Jugador
+Jugador <|-- User
+Jugador <|-- Cpu
+
+@enduml
